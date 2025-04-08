@@ -1,0 +1,15 @@
+span{
+    color: green;
+    display: block;/*por defecto*/
+    background-color:greenyellow;
+}
+div{
+    display: block;/*propiedad por defecto*/
+    background-color: red;
+}
+
+a{
+    display: inline-block;/*Mezcla de ambas propiedades*/
+    background-color: blueviolet;
+}
+

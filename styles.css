@@ -1,0 +1,28 @@
+:root{
+    --color-primario: red;
+    --color-secundario: blue;
+    --color-terciario: green;
+}
+
+
+.h3-css{
+    color:violet;
+
+}
+P{
+    color:var(--color-primario) ;
+    background-color: var(--color-terciario);
+}
+.parrafo-clase{
+    color: red;
+    background-color: black;
+}
+#id-clase{
+    color: blueviolet;
+        
+}
+
+.variable2{
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+}

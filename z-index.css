@@ -1,0 +1,32 @@
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color:tomato;
+    border-radius: 10px;
+    text-align: center;
+    padding:3mm;
+    position: absolute;
+    z-index: 1;
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet ;
+    border-radius: 10px;
+    text-align: center;
+    padding:2mm;
+    position: absolute;
+    z-index: 2;
+}
+
+.caja3{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    text-align: center;
+    padding:1mm;
+    position: absolute;
+    z-index: 3;
+}

@@ -1,0 +1,18 @@
+*{
+    color: darkgreen!important;/* Este es un selector universal 0,0,0*/   
+    /*ESTE ES EL TIPO DE LETRA PARA LA PAGINA WEB*/
+    font-family: "Bytesized", sans-serif;
+    /*ESTE ES EL TIPO DE LETRA PARA LA PAGINA WEB*/
+
+}
+/*!important rope toda la especificidad y gana en todo */
+
+h2{
+    color: blue; /* Este es un selector de etiqueta 0,0,1*/
+}
+.destacado{
+    color: tomato; /* Este es un selector de clase 0,1,0*/
+}
+#titulo{
+    color:chartreuse; /* Este es un selector de id 1,0,0*/
+}

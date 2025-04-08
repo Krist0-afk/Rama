@@ -1,0 +1,18 @@
+.contenedor{
+    display: flex;/* activo el modelo de caja */
+    background-color: blueviolet;
+    padding: 10px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item{
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 180px;
+}

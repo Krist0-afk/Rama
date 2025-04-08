@@ -1,0 +1,25 @@
+:root{
+--color-primario: black;
+--color-secundario: blue;
+--color-terciario: green;
+}
+.titu{
+    color:var(--color-primario);
+    background-color: red;
+}
+.sub{
+    color: tomato
+}
+
+.numerouno{
+    color:var(--color-primario);
+    background-color:var(--color-secundario);
+}
+.numerodos{
+    color:yellow;
+    background-color: green;
+}
+.numerotres{
+    color:red;
+    background-color: yellow;
+}

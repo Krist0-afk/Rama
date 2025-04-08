@@ -1,0 +1,23 @@
+.texto-estilo{
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.titulo{
+    color: tomato;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.enlace{
+    color: peru;
+    text-decoration: none;   
+}
+
+.enlace:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}

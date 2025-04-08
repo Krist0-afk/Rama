@@ -1,0 +1,25 @@
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    background-color: aquamarine;
+
+}
+
+.tarjeta{
+    flex: 1 1 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.9s;
+}
+.tarjeta:hover{
+    background-color: fuchsia;
+    color: white;
+}

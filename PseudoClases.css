@@ -1,0 +1,28 @@
+.boton{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: .9s;
+
+}
+/* Pseudoclase de hover*/
+.boton :hover{
+    background-color: darkred;
+}
+/* Pseudoclase de hover en lista al primer hijo*/
+
+.lista li:first-child{
+    font-weight: bold;
+    background-color: red;
+
+  
+}
+
+
+/* Pseudoclase de hover ntn-chield (even)*/
+.lista li:nth-child(even){
+    background-color: aqua;
+    color: white;
+}
